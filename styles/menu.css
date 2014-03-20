@@ -1,0 +1,113 @@
+
+.menu, .menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	border: 0;
+	display: block;
+}
+
+.menu li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	display: block;
+	float: left;	/* move all main list items into one row, by floating them */
+	position: relative;	/* position each LI, thus creating potential IE.win overlap problem */
+	z-index: 5;		/* thus we need to apply explicit z-index here... */
+}
+
+.menu li:hover {
+	z-index: 10000;	/* this makes sure active item is always above anything else in the menu */
+	white-space: normal;
+}
+
+.menu li li {
+	float: none;/* items of the nested menus are kept on separate lines */
+}
+
+.menu ul {
+	visibility: hidden;	
+	position: absolute;
+	z-index: 10;
+	left: 0;	
+	top: 0;		
+}
+
+.menu li:hover>ul {
+	visibility: visible;	
+	top: 100%;	
+}
+
+.menu li li:hover>ul {	
+	top: 0;
+	left: 100%;
+}
+
+
+.menu:after, .menu ul:after {
+	content: ".";
+	height: 0;
+	display: block;
+	visibility: hidden;
+	overflow: hidden;
+	clear: both;
+}
+.menu, .menu ul {	
+	min-height: 0;
+}
+
+.menu ul {
+	
+	
+}
+.menu ul ul {
+
+}
+
+.menu {
+	color: #000;
+	background-color: #848484;
+	width:738px;
+	border:1px solid #6c6c6c;
+	font-size:1.2em;
+	padding-left:28px;
+	
+}
+
+.menu ul li {
+	background-color: #848484;
+	
+
+}
+
+.menu li:hover {
+
+	background-color: #339;
+}
+
+.menu ul {
+	width: 9.45em;#610B0B
+}
+
+.menu a {
+	text-decoration: none;
+	padding: .6em 1.6em;
+	display: block;
+	position: relative;
+	color:#FFF;
+	
+}
+
+.menu ul a{
+	background-image:none;
+}
+.menu a:hover, .menu li:hover>a {
+	color: #FFF;
+	
+}
+
+
+
+
+

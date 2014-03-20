@@ -1,0 +1,314 @@
+html, body {
+background-color: #d6e2d0;
+height: 100%;
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}
+
+#wrap {
+
+background-color: #cfd0ce;
+width:768px;
+height:auto ;
+min-height: 100%;
+border-bottom:2px solid #6c6c6c;
+/* border-left: 2px solid; 
+make a wrap for just the logo aka the top wrap
+then if you border this one it wont go up the side of the logo
+
+*/
+margin:0 auto;
+
+}
+
+#main {
+	overflow:auto;
+	padding-bottom: 50px; /* must be same height as the footer */
+	float:left;
+	/* margin: 10px; */
+	width:768px; 
+
+}
+
+
+#cartandsearch { 
+	width: 768px; 
+	
+	background-color: #cfd0ce;
+} 
+
+#left, #right { 
+	width: 50%;
+	
+	
+} 
+
+
+#left  {
+ float:left; 
+}
+
+#right { 
+ float:right; 
+} 
+
+
+
+#footer {
+	position: relative;
+	 /* negative value of footer height */
+	height: 0px;
+	width: 680px; 
+	margin:0 auto;
+	padding:0 15px 30px 15px;  
+	/* position:absolute;
+	width:100%;
+	bottom:0; 
+	http://peterned.home.xs4all.nl/examples/csslayout1.html
+	*/
+} 
+
+
+
+body {
+	font-size:75%;
+	color:#363636;
+}
+
+a{
+	color:#a60202;
+
+}
+
+p{
+	line-height:1.2em;
+	margin-bottom:1em;
+}
+h1{
+	font-family:Book Antiqua, "Times New Roman", Times, serif;
+	font-weight:bold;
+	font-size:2.6em;
+	margin-bottom:0.2em;
+}
+h2{
+	font-family:Book Antiqua, "Times New Roman", Times, serif;
+	font-weight:bold;
+	font-size:1.8em;
+	margin-top:20px;
+
+}
+
+
+#menu {
+	position:relative;
+	margin:0 auto;
+	width:768px;
+	
+}
+#menu .menu{
+
+/* menu position */
+	position:absolute;
+	
+	top:78px;
+}
+
+
+#banner {
+	width:768px;
+	height:150px;
+	border-bottom:2px solid #6c6c6c;
+
+/*	margin:20px 0 20px 0;  */
+}
+#logo {
+	 
+	position:relative;
+	left:-19x;
+	width: 800px;
+	
+	
+}
+#leftCol {
+float:centre;
+width:480px;
+}
+
+#orderform
+{
+	
+	
+	width: 460px;
+	text-align: centre;
+	border-collapse: collapse;
+	
+}
+#orderform td
+{
+	padding: 3px;
+	background: #e8edff; 
+	border-bottom: 1px solid #fff;
+	color: #669;
+	border-top: 1px solid transparent;
+}
+#orderform tr:hover td
+{
+	background: #d0dafd;
+	color: #339;
+}
+
+#cartlist
+{
+	
+	
+	width: 768px;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+#cartlist th
+{
+	font-size: 13px;
+	font-weight: normal;
+	padding: 3px;
+	background: #b9c9fe;
+	
+	border-bottom: 1px solid #fff;
+	color: #039;
+}
+#cartlist td
+{
+	padding: 3px;
+	background: #e8edff; 
+	border-bottom: 1px solid #fff;
+	color: #669;
+	border-top: 1px solid transparent;
+}
+#cartlist tr:hover td
+{
+	background: #d0dafd;
+	color: #339;
+}
+
+/* now cart style */
+#cartcontents
+{
+	position: relative; 
+
+	width: 330px;
+	
+	text-align: left;
+	border-collapse: collapse;
+	border:1px solid #6c6c6c;
+
+	color: #669;
+}
+#cartcontents th
+{
+	font-size: 15px;
+	font-weight: normal;
+	padding: 2px;
+	background: #b9c9fe;
+	color: #669;
+	border-right: 1px solid #6c6c6c;
+	border-bottom:1px solid #6c6c6c;
+}
+#cartcontents td
+{
+	
+	font-size: 14px;
+	background: #e8edff; 
+	border-top:1px solid #6c6c6c;
+	color: #669;
+	border-bottom:1px solid #6c6c6c;
+}
+
+#cartcontents tr:hover td
+{
+	background: #d0dafd;
+	color: #339;
+}
+
+/* search bar style */
+
+#searchbar
+{
+
+border:1px solid #6c6c6c;
+right: -24px;
+font-size: 12px;
+font-weight: normal;
+position: relative; 
+background: #b9c9fe;
+border-collapse: collapse;
+height: 42px;
+
+text-align: left;
+}
+
+
+#searchbar td
+{
+	
+	font-size: 14px;
+	background: #e8edff; 
+	
+	color: #669;
+	
+}
+#searchbar tr:hover td
+{
+	background: #d0dafd;
+	color: #339;
+}
+
+
+
+#productlist
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	
+	width: 768px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#productlist th
+{
+	font-size: 13px;
+	font-weight: normal;
+	padding: 2px;
+	background: #b9c9fe;
+	
+}
+#productlist td
+{
+	max-height:50px;
+	padding: 2px;
+	background: #e8edff; 
+	border-bottom: 1px solid #fff;
+	color: #669;
+	border-top: 1px solid transparent;
+}
+#productlist tr:hover td
+{
+	background: #d0dafd;
+	color: #339;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
