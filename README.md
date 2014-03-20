@@ -3,7 +3,7 @@ phonezone
 
 Phone Zone - Mobile Phone shop
 
-The first website I designed in my 2nd year of my (non web design focused) degree. 
+The first website I designed during my (non web design focused) degree. Developed April - May 2012
 
 This was my first encounter with PHP, HTML and CSS with a bit of JS
 
