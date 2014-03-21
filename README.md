@@ -7,7 +7,7 @@ The first website I designed during my (non web design focused) degree. Develope
 
 This was my first encounter with PHP, HTML and CSS with a bit of JS
 
-It is somewhat buggy and incomplete compared to the SMS project. 
+It lacks proper validation and the checkout function is not entirely ncomplete. It is less efficient when compared to the SMS project. 
 
 I will have a working link to the site on Monday as I have a few things to do before then:
 
